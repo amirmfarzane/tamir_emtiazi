@@ -5,13 +5,10 @@ using namespace std;
 
 vector<vector<int> > farm;
 //----------------
-long int
-Sum(
-    vector<int> v
-) {
-     long int sum = 0;
-    for (int i = 0; i < v.size(); i++)
-    sum += v[i];
+long int sumFunction( vector<int> inputListNumbers) {
+    long int sum = 0;
+    for (int i = 0; i < inputListNumbers.size(); i++)
+    sum += inputListNumbers[i];
     return sum;
 }
 //--------------------------------
