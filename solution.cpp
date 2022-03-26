@@ -69,7 +69,7 @@ void solve(int m, int n, long int& harvest){
 /*----------------*/
 int main() {
     int m, n;
-    int    product;
+    int product;
     
     long int harvest = 0;
     cin>>m>> n;
@@ -88,7 +88,4 @@ int main() {
     cout<<harvest;
     return 0;
     cout << "Hello there! I'm unreachable!" << endl;
-    // new file.1111
-} // main
-
-// no reason for this comment
+}
